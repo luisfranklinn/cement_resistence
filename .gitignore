@@ -1,38 +1,13 @@
-# Data (proprietary — request from authors)
-data/*.csv
-data/*.xlsx
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-**/.ipynb_checkpoints/
-
-# Python
+.env
 __pycache__/
 *.pyc
 *.pyo
-.env
+models/*.joblib
+models/*.pkl
+logs/
+*.log
+.venv/
 venv/
 *.egg-info/
-
-# LaTeX build artifacts
-paper/*.aux
-paper/*.bbl
-paper/*.blg
-paper/*.log
-paper/*.out
-paper/*.synctex.gz
-paper/*.toc
-paper/*.fls
-paper/*.fdb_latexmk
-paper/_minted*/
-
-# Models (large binary files)
-*.joblib
-*.pkl
-
-# OS
 .DS_Store
 Thumbs.db
-
-# Old output folders
-figuras/
